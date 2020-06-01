@@ -1,0 +1,92 @@
+body {
+  background-color: AliceBlue;
+  padding: 0;
+}
+h1 {
+  font-family: "Century Gothic";
+  font-size: 42px;
+  text-align: center;
+  color: #1f0182;
+}
+h2 {
+  font-family: "Century Gothic";
+  font-size: 30px;
+  text-align: left;
+  color: #1f0182;
+}
+p {
+  font-family: "Calibri Light";
+  font-size: 18px;
+}
+a:link, a:visited {
+  font-family: "Century Gothic";
+  font-size: 20px;
+  background-color: #1f0182;
+  color: AliceBlue;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block-inline;
+}
+a:hover , a:active {
+  background-color: #6f56bf;
+}
+#leftbox {
+  text-align: center;
+  text-decoration: bold;
+  font-family: "Calibri";
+  color: #1f0182;
+
+  padding: 10px;
+  font-size: 22px;
+  
+  border-style: double;
+  display: block-inline;
+  height: 300px;
+  width: 30%;
+  background-color: #e4e9ed;
+}
+#rightbox {
+  text-align: center;
+  font-family: "Calibri";
+  color: #1f0182;
+  font-size: 16px;
+
+  display: block-inline;
+  height: 300px;
+  width: 30%;
+  padding: 10px;
+  background-color: #e4e9ed;
+}
+#breakline{
+
+  display: block-inline;
+  height: 100px;
+  width: 30%;
+  padding: 10px;
+  background-color: AliceBlue;
+}
+#header{
+  height: 125px;
+  background-color: #f7dff7;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+#frontpage {
+  text-align: center;
+  font-family: "Calibri Light";
+  color: #1f0182;
+  font-size: 16px;
+
+  padding: 10px 300px;
+}
+#contactpage {
+  text-align: center;
+  font-family: "Calibri Light";
+  color: #1f0182;
+  background-color: "AliceBlue";
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+}
